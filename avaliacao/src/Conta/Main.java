@@ -15,11 +15,11 @@ public class Main {
                 System.out.println("Digite 1 para criar uma conta corrente");
                 System.out.println("Digite 2 para criar uma conta poupança");
                 System.out.println("Digite 3 para criar uma conta investimento");
-                System.out.println("Digite 4 para sair!!!");
+                System.out.println("Digite 0 para sair!!!");
                 int opcao = input.nextInt();
                 input.nextLine();
 
-                if (opcao == 4) {
+                if (opcao == 0) {
                     System.out.println("Obrigado por utilizar o nosso programa🥰!!!");
                     break;
                 } else {
@@ -105,6 +105,7 @@ public class Main {
         System.out.println("Programa finalizado com sucesso!!!");
     }
 }
+
 
 
 
