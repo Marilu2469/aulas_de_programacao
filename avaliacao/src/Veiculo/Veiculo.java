@@ -16,6 +16,7 @@ public class Veiculo {
         System.out.println("O preço do veículo é: "  + this.preco);
     }
     public void mostrar_dados(double desconto){
+        mostrar_dados();
         System.out.println("O preço do veículo com desconto é: "  + (this.preco*(desconto/100)));
 
 
@@ -32,4 +33,5 @@ public class Veiculo {
     public double getPreco() {
         return preco;
     }
+
 }
